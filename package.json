@@ -1,0 +1,18 @@
+{
+  "name": "mongo-crud-service",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.8.1",
+    "mongodb": "^5.2.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.1"
+  }
+}
